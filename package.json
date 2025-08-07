@@ -10,9 +10,12 @@
   ],
   "license": "ISC",
   "author": "aansari4599 (Mohd Asif Ansari)",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
