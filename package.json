@@ -1,0 +1,18 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "a content hosting platform like youtube",
+  "keywords": [
+    "JS",
+    "JavaScript",
+    "Node",
+    "Backend"
+  ],
+  "license": "ISC",
+  "author": "aansari4599 (Mohd Asif Ansari)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
