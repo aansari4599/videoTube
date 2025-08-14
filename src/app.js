@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
+import { ROUTE_PREFIX } from "./constants.js";
 
 const app = express();
 
@@ -34,8 +35,6 @@ import commentRouter from "./routes/comment.routes.js";
 import playlistRouter from "./routes/playlist.routes.js";
 import subscriptionRouter from "./routes/subscription.routes.js";
 import dashboardRouter from "./routes/dashboard.routes.js";
-
-const ROUTE_PREFIX = "/api/v1";
 
 // routes declaration
 app.use(`${ROUTE_PREFIX}/user`, userRouter);
